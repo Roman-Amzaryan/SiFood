@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <link
+            rel="stylesheet"
+            href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+            integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+            crossorigin="anonymous"/>
+        <link rel="stylesheet" href="./css/totla.css">
+    </head>
+    <body>
+
+        <header>
+            <nav class="nav-1">
+                <div class="container">
+                    <div class="nav-top">
+                        <div class="icon">
+                            <a href="https://twitter.com/i/flow/login">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="https://www.facebook.com/si.foods.3">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-google-plus-g"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-skype"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-pinterest-p"></i>
+                            </a>
+                            <a href="https://www.youtube.com/">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </div>
+
+                        <div class="register">
+                            <ul>
+                                <li>
+                                    <a href="">Default Welcome Msg !
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" onclick="showCard()">My Account
+                                        <i class="fas fa-chevron-down"></i>
+                                    </a>
+                                    <ul class="card">
+                                        <li>
+                                            <a href="#">
+                                                <i class="fas fa-portrait"></i>
+                                                Register</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fas fa-sign-in-alt"></i>Login</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fas fa-heart"></i>
+                                                Wish List (0)</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" onclick="showCard1()">$ Currency
+                                        <i class="fas fa-chevron-down"></i>
+                                    </a>
+                                    <ul class="card1">
+                                        <li>
+                                            <a href="#">
+                                                <i class="fas fa-euro-sign"></i>Euro</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fas fa-rupee-sign"></i>Indian Rupee</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fas fa-pound-sign"></i>Pound Sterling</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fas fa-dollar-sign"></i>US Dollar</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" onclick="showCard2()"><img src="./image/flllllaaaaggg.png">
+                                        Language
+                                        <i class="fas fa-chevron-down"></i>
+                                    </a>
+                                    <ul class="card2">
+                                        <li>
+                                            <a href="#"><img src="./image/flaggg.arab.png">
+                                                Arabic</a>
+                                        </li>
+                                        <li>
+                                            <a href="index.html"><img src="./image/flllllaaaaggg.png">English</a>
+                                        </li>
+                                        <li>
+                                            <a href="Language-Arm.html"><img src="./image/photo_2021-09-13_13-05-06 armmm.jpg" alt="">
+                                                Armenia</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </nav>
+
+            <nav class="nav-2">
+                <div class="container">
+                    <div class="nav-bottom">
+
+                        <div class="nav-left">
+                            <img src="./image/logo.jpg">
+                        </div>
+                        <div class="nav-center">
+                            <form>
+                                <select>
+                                    <option>
+                                        ALL CATEGORIES</option>
+                                    <option value="Beauty">
+                                        Burger</option>
+                                    <option value="Beuty & Spa ALL CATEGORIES">Beauty & SPA</option>
+                                    <option value=" Shoes">
+                                        Shoes</option>
+                                    <option value="Smart Phone">
+                                        Smart phone</option>
+                                    <option value="Smart Phone">Smart phone</option>
+                                    <option value="Russia">Dekstops</option>
+                                    <option value="Desktops">Laptops</option>
+                                    <option value="Beuty & Spa">components</option>
+                                    <option value="Smart Phone">Tablets</option>
+                                </select>
+                                <input type="text" placeholder="Search">
+                                <button>
+                                    <i class="fas fa-search"></i>
+                                </button>
+                            </form>
+                        </div>
+                        <div class="nav-right">
+                            <div class="tel  tel-1">
+                                <img src="./image/icon-call.png">
+                                <div>
+                                    <a href="#">
+                                        <p>Call US:</p>
+                                        <p>123456789</p>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="tel">
+                                <span></span>
+                                <a href="#" id="cardBtn" onclick="showCardNav()">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </a>
+                                <div id="basket">
+                                    <p id="total">total</p>
+                                    <div id="basketItems"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="nav-3">
+        <div class="container">
+            <div class="full-nav">
+
+                <div class="burger-menu">
+                    <ul>
+                        <li>
+                            <a href="#" onclick="showCard3()">
+                                <i class="fas fa-bars"></i>
+                                ALL CATEGORIES</a>
+                            <ul class="card3">
+                                <li>
+                                    <a href="#"><img src="./image/aside_01.png">
+                                        Burger</a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="./image/aside_02.png">
+                                        Cheeseburgers</a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="./image/aside_04.png">
+                                        Bacon Cheeseburger</a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="./image/aside_03.png">
+                                        BBQ Bacon Burger</a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="./image/aside_05.png">
+                                        G'S Burger</a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="./image/aside_06.png">
+                                        Angus</a>
+                                    <i class="fas fa-chevron-down"></i>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="./image/aside_01.png">Coctails</a>
+                                    <i class="fas fa-chevron-down"></i>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="./image/aside_01.png">Juice</a>
+                                    <i class="fas fa-chevron-down"></i>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="./image/aside_01.png">G'S Burger</a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fas fa-plus"></i>
+                                        More Categories</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <a href="about.html">HOME</a>
+                        </li>
+                        <li>
+                            <a href="about.html">SPECIALS</a>
+                        </li>
+                        <li>
+                            <a href="about.html">CONTACT US</a>
+                        </li>
+                        <li>
+                            <a href="about.html">SITE MAP</a>
+                        </li>
+                        <li>
+                            <a href="about.html">BRAND</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="section-1">
+        <div class="container">
+            <div id="main-img1">
+                <div id="main-img"></div>
+            </div>
+        </div>
+    </section>
+</header>
+
+<section class="section-2">
+    <div class="container">
+        <div class="section-list">
+            <h2>Treding Products</h2>
+        </div>
+    </div>
+</section>
+
+<div class="container">
+    <div class="items"></div>
+</div>
+
+
+<section class="section-3">
+    <div class="container">
+        <div class="section-list-1">
+
+            <div class="item-1">
+              <img src="./image/big_menu_01.jpg">
+              <img src="./image/big_menu_02.jpg">
+            </div>
+
+            <div class="item-2">
+                <img src="./image/big_menu_03_large.jpg">
+            </div>
+
+
+            <div class="item-4">
+                <img src="./image/big_menu_04.jpg">
+                <img src="./image/big_menu_05.jpg">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="section-4">
+    <div class="container">
+        <div class="section-list-2">
+            <div class="block-3">
+                <img src="./image/free.png">
+                <div>
+                    <h5>FREE DELIVERY</h5>
+                    <p>Free shipping on all US orders</p>
+                </div>
+            </div>
+
+            <div class="block-3">
+                <img src="./image/bag.png">
+                <div>
+                    <h5>MONEY BACK GUARANTEE</h5>
+                    <p>Shocking discount every sunday</p>
+                </div>
+            </div>
+
+            <div class="block-3">
+                <img src="./image/ex-1.png">
+                <div>
+                    <h5>ONLINE SUPPORT</h5>
+                    <p>We support online 24 hours a day</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="section-2">
+    <div class="container">
+        <div class="section-list">
+            <h2>Latest Blog</h2>
+            <nav>
+                <div class="search">
+                    <input type="search" id="search" placeholder="Search">
+                    <div id="searchBox"></div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</section>
+
+ <div class="container">
+        <div id="itemssss"></div>
+    </div>
+
+
+
+
+    <section class="section-5">
+        <div class="container">
+            <div class="section-list-3">
+                <div>
+                    <img src="./image/footer_logo_01.png">
+                    <img src="./image/footer_logo_02.png">
+                    <img src="./image/footer_logo_03.png">
+                    <img src="./image/footer_logo_04.png">
+                    <img src="./image/footer_logo_05.png">
+                    <img src="./image/footer_logo_06.png">
+                    <img src="./image/footer_logo_07.png">
+                    <img src="./image/footer_logo_08.png">
+                    <img src="./image/footer_logo_09.png">
+                    <img src="./image/footer_logo_10.png">
+                    <img src="./image/footer_logo_11.png">
+                    <img src="./image/footer_logo_01.png">
+                    <img src="./image/footer_logo_02.png">
+                    <img src="./image/footer_logo_03.png">
+                    <img src="./image/footer_logo_04.png">
+                    <img src="./image/footer_logo_05.png">
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer>
+        <div class="container">
+            <div class="footer-list">
+                <div>
+                    <a href="#"><h4>Contact Us</h4></a>
+                    <p><i class="fas fa-map-marker-alt"></i>42 Dream House, Dreammy <br> street, 7131 Dreamville, USA</p>
+                    <p><i class="fas fa-envelope"></i>company@gmail.com</p>
+                    <p><i class="fas fa-phone-alt"></i>(+374)-77- 66-66-66</p>
+                    <p><i class="fas fa-fax"></i>fax@company.com</p>
+                </div>
+
+                <div>
+                    <a href="#"><h4>Extras</h4></a>
+                    <p>Brands</p>
+                    <p>Gift Certificates</p>
+                    <p>Affiliate</p>
+                    <p> Specials</p>
+                    <p>Contact Us</p>
+                </div>
+
+                <div>
+                    <a href="#"><h4>Information</h4></a>
+                    <p>About Us</p>
+                    <p> Delivery Information</p>
+                    <p> Privacy Policy</p>
+                    <p>Terms & Conditions</p>
+                    <p> Contact Us</p>
+                    <p> Site Map</p>
+                </div>
+
+                 <div>
+                    <a href="#"><h4>My Account</h4></a>
+                    <p>My Account</p>
+                    <p>Order History</p>
+                    <p>Wish List</p>
+                    <p>Newsletter</p>
+                    <p> Returns</p>
+                </div>
+            </div>
+
+            <div class="footer-list-2">
+                <img src="./image/payment.png">
+                <p>Powered By ՝Roman Amzaryan © 2021</p>
+            </div>
+        </div>
+    </footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="./js/script.js"></script>
+</body>
+</html>
